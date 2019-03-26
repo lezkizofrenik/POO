@@ -1,0 +1,13 @@
+
+
+si raiz(a)!=nodonulo{
+    añadirraiz(B, elemento(raiz(A)))
+    reflejadorec(raiz(a),a,raiz(b),b)
+    return b;
+    }
+else{
+    reflejadorec(n1, a1, 2, a2)
+    si hijoizq(n1, A) != nodonulo
+        añadirhdrecho(n2,a2)
+        reflejadorec(hijoizqdo(n1,a1),a1, hijo dcho(n2,a2),a2)
+}

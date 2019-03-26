@@ -1,0 +1,9 @@
+double evaluar(A Arbol)
+devolver evaluarrec(raiz(a), a);
+
+evaluar_rec(n2, a2){
+    si hoja(n1, a1) devolver elemento(n1, a1).operando
+    si no
+        case elemento(n1, a1). operador
+            '+' devolver evaluar_rec(hijoizq(n1, a1), a1) + evaluar_rec(hijodrch(n1, a1), a1)
+}
